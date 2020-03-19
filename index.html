@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>FindThePrecious</title>
 </head>
 <body>
     <main>
         <content>
+
+            <!-- navbar -->
+
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">FindThePrecious.com</a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,6 +25,9 @@
                       </div>
                 </div>
               </nav>
+
+              <!-- Carousel -->
+
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -42,6 +49,117 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
+
+              <!-- Cards -->
+
+              <div class="cards-title">
+                <h3><strong>Fellows wanted dead</strong> <span class="span-card-title">(or alive if you want to eat them later)</span></h3>
+              </div>
+
+              <div class="container">
+                <div class="row">
+                  
+                  <div class="col-sm">                    
+                    <div class="card" style="width: 18rem;">
+                      <div class="parent">
+                      <img src="https://img.icons8.com/ios-glyphs/100/000000/user-male.png" class="card-img-top" alt="shape" />
+                      <div class="enfant">Reward 1000 gold coins</div>
+                      </div>
+                        <div class="card-body">
+                          <h4 class="card-title">The Wizard</h4>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">                    
+                    <div class="card" style="width: 18rem;">
+                      <div class="card-img"><img src="https://img.icons8.com/ios-glyphs/100/000000/user-male.png" class="card-img-top dead-card" alt="shape" /></div>
+                      <div class="dead">DEAD</div>
+                      <div class="card-body">
+                          <h4 class="card-title">Hobbit #3</h4>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">                    
+                    <div class="card" style="width: 18rem;">
+                      <div class="parent">
+                      <img src="https://img.icons8.com/ios-glyphs/100/000000/user-male.png" class="card-img-top" alt="shape" />
+                      <div class="enfant">Reward 250 gold coins</div>
+                      </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Yummy Dwarf</h4>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            <!-- hr -->
+
+            <hr>
+
+            <!--Form -->
+
+            <form>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h2>Contact us</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-9">
+                    <input type="email" placeholder="@">
+                    <input type="text" placeholder="&#8962;">
+                    <input type="text" placeholder="I have seen one of them">
+                    <textarea placeholder="Your message"></textarea>
+                    <button class="submit" type="submit">Send !</button>
+                  </div>
+                </div>
+              </div>
+
+            </form>
+
+            <!-- Footer -->
+
+            <footer>
+              <div class="container">
+                <div class="row">
+                  <div class="col-3">
+                    <ul class="footer_1">
+                      <li>About us</li>
+                      <li>Fellows</li>
+                      <li>Join our army</li>
+                    </ul>
+                  </div>
+                  <div class="col-3">
+                    <ul class="footer_2">
+                      <li>FAQ</li>
+                      <li>Reward conditions</li>
+                      <li>Legal mention</li>
+                    </ul>
+                  </div>
+                  <div class="col-2">
+                    <ul class="footer_3">
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <ul class="footer_4">
+                      <li>Sauron4Ever.com</li>
+                      <li>Follow him also on twitter</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </footer>
+
+
         </content>
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

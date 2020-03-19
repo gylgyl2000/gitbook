@@ -1,0 +1,97 @@
+.cards-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.span-card-title {
+    font-size: 75%;
+}
+
+.dead {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    width: 100%;
+    font-size: 300%;
+    font-weight: bold;
+
+}
+
+.dead-card {
+    background-color: darkgray;
+    opacity: 0.4;
+    
+}
+
+div.enfant {
+    display: none;
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 36px;
+    font-size: 140%;
+}
+
+div.parent:hover .enfant {
+	display:block;
+}
+
+hr {
+    margin-top: 150px !important;
+    border-top: 2px solid black !important;
+}
+ 
+.contact {
+    width: 80vw;
+    align-items: center;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+ 
+form input {
+    width: 100%;
+    margin: 5px 0;
+}
+ 
+form textarea {
+    width: 100%;
+    margin: 5px 0;
+    height: 100px;
+}
+ 
+form .submit {
+    text-align: center;
+    margin-top: 15px;
+    float: right;
+  }
+ 
+footer {
+    color: wheat;
+    background-color: rgb(75, 74, 74);
+    padding : 20px;
+    margin-top: 100px;
+}
+ 
+footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+ 
+.footer_1, .footer_2, .footer_3 {
+    font-size: 14px;
+    line-height: 24px;
+}
+ 
+.footer_4 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    padding-top: 10px;
+}
