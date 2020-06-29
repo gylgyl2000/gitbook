@@ -1,6 +1,6 @@
 # Les guides
 
-[Codewars](guide-javascript.md)
+[Codewars](guides/guide-javascript.md)
 
 freeCodeCamp
 
